@@ -4,8 +4,8 @@ import styled from 'styled-components';
 export default function Login() {
   
   const handleClick = () => {
-    const client_id = "9c67076a728843e8b7afeb1aab744af2";  //unique for everyone
-    const redirect_uri = "https://spotify-clone-api.netlify.app/";   //after authentication, redirect to this url
+    const client_id = "d670d5b2373b4da7b5e409fc0f333cac";  //unique for everyone
+    const redirect_uri = "http://localhost:3000/";   //after authentication, redirect to this url
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",  //user scope
@@ -53,3 +53,4 @@ const Container = styled.div`
       cursor: pointer;
     }
 `;
+
